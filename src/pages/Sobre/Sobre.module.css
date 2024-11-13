@@ -1,0 +1,55 @@
+.sobre{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteudo_sobre{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.text_sobre{
+    width: 60%;
+}
+.text_sobre h2{
+    padding-bottom: 1rem;
+}
+.text_sobre p{
+    padding-block: 1rem;
+    font-size: 20px;
+}
+.text_sobre span{
+    font-weight: bold;
+}
+.nome{
+    color: var(--red);
+}
+.cargo{
+    color: var(--secondary);
+}
+.avatar{
+    width: 250px;
+    border-radius: 50%;
+}
+.tech{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px;
+}
+.techs{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.techs span{
+    font-size: 75px;
+    color: var(--secondary);
+}

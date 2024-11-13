@@ -1,0 +1,32 @@
+.conteudos_contato{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudos_contato h2{
+    font-weight: bold;
+}
+.titulo_contato{
+    padding-block: 25px;
+}
+.conteudos_contato p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.icones_contato{
+    width: 550px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icones_contato a{
+    font-size: 50px;
+    color: var(--red);
+    text-decoration: none;
+
+}
