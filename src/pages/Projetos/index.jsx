@@ -17,7 +17,6 @@ function Projeto() {
     return (
         <section className={styles.projetos}>
             <h2>Projetos</h2>
-            
             {
                 repositories.length > 0 ? (
                     <section className={styles.lista}>
